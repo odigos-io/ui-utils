@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.2...ui-utils-v0.0.3) (2025-02-03)
+
+
+### Bug Fixes
+
+* readme ([91a2d79](https://github.com/odigos-io/ui-utils/commit/91a2d79df2ab4100c9e3813a93875d80b6fdf3c4))
+
 ## [0.0.2](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.1...ui-utils-v0.0.2) (2025-02-03)
 
 
