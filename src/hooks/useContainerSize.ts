@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 
 const useContainerSize = () => {
-  const ref = useRef<HTMLElement | null>(null)
+  const ref = useRef<HTMLDivElement | null>(null)
   const [width, setWidth] = useState<number>(0)
   const [height, setHeight] = useState<number>(0)
 
