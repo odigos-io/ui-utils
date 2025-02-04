@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.4...ui-utils-v0.0.5) (2025-02-04)
+
+
+### Bug Fixes
+
+* elemet type in useContainerSize ([dd04e20](https://github.com/odigos-io/ui-utils/commit/dd04e2001a361fb589fa90f521a165ab4040650b))
+
 ## [0.0.4](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.3...ui-utils-v0.0.4) (2025-02-04)
 
 
