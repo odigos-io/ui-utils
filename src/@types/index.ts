@@ -92,7 +92,7 @@ export interface ActionOption {
   items?: ActionOption[]
 }
 
-export type InstrumentationRuleOption = {
+export interface InstrumentationRuleOption {
   id: string
   type?: INSTRUMENTATION_RULE_TYPE
   icon?: SVG
