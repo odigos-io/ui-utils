@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.6](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.5...ui-utils-v0.0.6) (2025-02-04)
+
+
+### Bug Fixes
+
+* type for getHealthStatus ([e7886aa](https://github.com/odigos-io/ui-utils/commit/e7886aa0f78c37b2e0ec3eede235847569a262b3))
+
 ## [0.0.5](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.4...ui-utils-v0.0.5) (2025-02-04)
 
 
