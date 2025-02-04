@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.3...ui-utils-v0.0.4) (2025-02-04)
+
+
+### Features
+
+* add useContainerSize hook ([2767d70](https://github.com/odigos-io/ui-utils/commit/2767d70bfb74a0af83ce7cd4c40b939c92c1bcf8))
+
 ## [0.0.3](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.2...ui-utils-v0.0.3) (2025-02-03)
 
 
