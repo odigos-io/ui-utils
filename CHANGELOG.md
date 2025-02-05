@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.7](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.6...ui-utils-v0.0.7) (2025-02-05)
+
+
+### Features
+
+* add condition types and mapping function ([90039fb](https://github.com/odigos-io/ui-utils/commit/90039fb73e54ccdf1ffea34dec62bf71bc047cc4))
+
+
+### Bug Fixes
+
+* comparison type name ([a9a5314](https://github.com/odigos-io/ui-utils/commit/a9a53149102e5f7cc4e25c75ae6a9422af76fb36))
+
 ## [0.0.6](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.5...ui-utils-v0.0.6) (2025-02-04)
 
 
