@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.8](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.7...ui-utils-v0.0.8) (2025-02-05)
+
+
+### Features
+
+* add sleep function ([9fbfcff](https://github.com/odigos-io/ui-utils/commit/9fbfcff984ae5c59e659d7af98e0fd29633f75b4))
+
 ## [0.0.7](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.6...ui-utils-v0.0.7) (2025-02-05)
 
 
