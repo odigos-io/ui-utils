@@ -1,6 +1,6 @@
-export type Condition = '===' | '==' | '!==' | '!=' | '>' | '<' | '>=' | '<='
+export type Comparison = '===' | '==' | '!==' | '!=' | '>' | '<' | '>=' | '<='
 
-export const compareCondition = (renderCondition: [string, Condition, string] | ['true' | 'false'], fields: { name: string; value: any }[]) => {
+export const compareCondition = (renderCondition: [string, Comparison, string] | ['true' | 'false'], fields: { name: string; value: any }[]) => {
   if (!renderCondition || !renderCondition.length) return true
   if (renderCondition.length === 1) return renderCondition[0] == 'true'
 
