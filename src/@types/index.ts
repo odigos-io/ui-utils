@@ -46,6 +46,12 @@ export enum HEALTH_STATUS {
   UNHEALTHY = 'unhealthy',
 }
 
+export enum CONDITION_STATUS {
+  FALSE = 'False',
+  TRUE = 'True',
+  UNKNOWN = 'Unknown',
+}
+
 export enum SIGNAL_TYPE {
   LOGS = 'logs',
   METRICS = 'metrics',
@@ -101,4 +107,21 @@ export interface InstrumentationRuleOption {
   docsEndpoint?: string
   docsDescription?: string
   items?: InstrumentationRuleOption[]
+}
+
+// FetchedCondition is the condition as it comes from the API,
+// although we don't define API interfaces in this project, conditions in specific are not mapped on get-queries, so we need to define it here and provide a mapping function
+export interface FetchedCondition {
+  status: CONDITION_STATUS
+  type: string
+  reason: string
+  message: string
+  lastTransitionTime: string
+}
+
+// Condition is the condition after it has been mapped
+export interface Condition {
+  status: NOTIFICATION_TYPE
+  message: string
+  lastTransitionTime: string
 }
