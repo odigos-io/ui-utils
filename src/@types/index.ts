@@ -19,6 +19,13 @@ export enum K8S_RESOURCE_KIND {
   STATEFUL_SET = 'StatefulSet',
 }
 
+export enum CRUD {
+  CREATE = 'Create',
+  READ = 'Read',
+  UPDATE = 'Update',
+  DELETE = 'Delete',
+}
+
 export interface WorkloadId {
   namespace: string
   name: string
