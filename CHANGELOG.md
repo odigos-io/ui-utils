@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.10](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.9...ui-utils-v0.0.10) (2025-02-06)
+
+
+### Bug Fixes
+
+* peer deps ([1c87f44](https://github.com/odigos-io/ui-utils/commit/1c87f441cffc6acdc217d671ab5d15132d18e013))
+
 ## [0.0.9](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.8...ui-utils-v0.0.9) (2025-02-06)
 
 
