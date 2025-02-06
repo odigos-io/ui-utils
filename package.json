@@ -21,11 +21,11 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@odigos/ui-icons": "^0.0.2",
+    "@odigos/ui-icons": "^0.0.4",
     "javascript-time-ago": "^2.5.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.15"
   },
   "dependencies": {
     "@odigos/ui-icons": "^0.0.4",
