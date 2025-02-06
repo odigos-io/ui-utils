@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.9](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.8...ui-utils-v0.0.9) (2025-02-06)
+
+
+### Features
+
+* add CRUD enum ([b7d8214](https://github.com/odigos-io/ui-utils/commit/b7d8214c34f4bfb23237ce8d51af9c7342d5ee22))
+
+
+### Bug Fixes
+
+* update deps ([45abf20](https://github.com/odigos-io/ui-utils/commit/45abf201432999d61fba23b562c4ab6ba69728c6))
+
 ## [0.0.8](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.7...ui-utils-v0.0.8) (2025-02-05)
 
 
