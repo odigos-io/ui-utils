@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.13](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.12...ui-utils-v0.0.13) (2025-02-07)
+
+
+### Bug Fixes
+
+* remove useTheme from getStatusIcon ([bc4d5a8](https://github.com/odigos-io/ui-utils/commit/bc4d5a8862c7c2a89ecef45104a8c76e567afe7c))
+
 ## [0.0.12](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.11...ui-utils-v0.0.12) (2025-02-07)
 
 
