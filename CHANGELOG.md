@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.12](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.11...ui-utils-v0.0.12) (2025-02-07)
+
+
+### Features
+
+* update deps ([0b86904](https://github.com/odigos-io/ui-utils/commit/0b86904756c2c8606dfc1c90e4abbe44364289fa))
+
 ## [0.0.11](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.10...ui-utils-v0.0.11) (2025-02-07)
 
 
