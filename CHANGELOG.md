@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.11](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.10...ui-utils-v0.0.11) (2025-02-07)
+
+
+### Features
+
+* refactor lib folders ([6ae0d1c](https://github.com/odigos-io/ui-utils/commit/6ae0d1cb65142162fd906890cfd243aa1241762a))
+
 ## [0.0.10](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.9...ui-utils-v0.0.10) (2025-02-06)
 
 
