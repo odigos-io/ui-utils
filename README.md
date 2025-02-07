@@ -1,5 +1,7 @@
 # Odigos UI Utils
 
+This library contains the utils for all Odigos UI libraries ([ui-icons](https://github.com/odigos-io/ui-icons), [ui-components](https://github.com/odigos-io/ui-components), [ui-containers](https://github.com/odigos-io/ui-containers)).
+
 ## Installation
 
 Using **npm**:
