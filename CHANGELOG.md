@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.15](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.14...ui-utils-v0.0.15) (2025-02-08)
+
+
+### Features
+
+* add useGenericForm hook ([63cfdbb](https://github.com/odigos-io/ui-utils/commit/63cfdbbdd735126fe1bbf90696809cdc6c573d08))
+
 ## [0.0.14](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.13...ui-utils-v0.0.14) (2025-02-08)
 
 
