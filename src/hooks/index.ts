@@ -1,5 +1,6 @@
 export * from './useContainerSize'
 export * from './useCopy'
+export * from './useGenericForm'
 export * from './useKeyDown'
 export * from './useOnClickOutside'
 export * from './useTimeAgo'
