@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.14](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.13...ui-utils-v0.0.14) (2025-02-08)
+
+
+### Features
+
+* add new consts ([73fc2be](https://github.com/odigos-io/ui-utils/commit/73fc2be36733b24ae77e11fa4acb8a3d8a8cae7f))
+
 ## [0.0.13](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.12...ui-utils-v0.0.13) (2025-02-07)
 
 
