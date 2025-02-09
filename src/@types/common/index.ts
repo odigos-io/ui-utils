@@ -32,3 +32,14 @@ export enum ENTITY_TYPES {
   ACTION = 'action',
   INSTRUMENTATION_RULE = 'rule',
 }
+
+export enum FIELD_TYPES {
+  INPUT = 'input',
+  MULTI_INPUT = 'multiInput',
+  MULTI_TABLED_INPUT = 'multiTabledInput', // not used by dests, but is in form components
+  KEY_VALUE_PAIR = 'keyValuePairs',
+  TEXTAREA = 'textarea',
+  DROPDOWN = 'dropdown',
+  CHECKBOX = 'checkbox',
+  TOGGLE = 'toggle', // not used by dests, but is in form components
+}
