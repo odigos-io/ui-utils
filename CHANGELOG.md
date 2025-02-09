@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.0.17](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.16...ui-utils-v0.0.17) (2025-02-09)
+
+
+### Features
+
+* add CRD types enum ([8d768fa](https://github.com/odigos-io/ui-utils/commit/8d768fa91d3e0afbe04b398044f19e53c3bc3b81))
+* add describe types and consts ([e25cd59](https://github.com/odigos-io/ui-utils/commit/e25cd5972196a31190585d1ea34d39dc2c0c383f))
+* add mock data for re-usability ([bbc1abc](https://github.com/odigos-io/ui-utils/commit/bbc1abc45c19ea2fe149020870c697062a6817e5))
+* add mock describe source ([2f957f2](https://github.com/odigos-io/ui-utils/commit/2f957f2fb7ed1cac4a013309a3cb56a04602c9cb))
+* add token types and consts ([bfbca04](https://github.com/odigos-io/ui-utils/commit/bfbca04f4258ddb48ec80acf85cb54e4e2087e26))
+
 ## [0.0.16](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.15...ui-utils-v0.0.16) (2025-02-09)
 
 
