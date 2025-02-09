@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.19](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.18...ui-utils-v0.0.19) (2025-02-09)
+
+
+### Features
+
+* add destination category/option types ([ee7afde](https://github.com/odigos-io/ui-utils/commit/ee7afdeff8a19b557d21e87a00ebe72694ac7fa0))
+
 ## [0.0.18](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.17...ui-utils-v0.0.18) (2025-02-09)
 
 
