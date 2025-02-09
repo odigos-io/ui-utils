@@ -43,3 +43,21 @@ export enum FIELD_TYPES {
   CHECKBOX = 'checkbox',
   TOGGLE = 'toggle', // not used by dests, but is in form components
 }
+
+export enum CRD_TYPES {
+  ODIGOS_CONFIGURATION = 'OdigosConfiguration',
+  COLLECTORS_GROUP = 'CollectorsGroup',
+  SOURCE = 'Source',
+  INSTRUMENTATION_CONFIG = 'InstrumentationConfig',
+  INSTRUMENTATION_INSTANCE = 'InstrumentationInstance',
+  DESTINATION = 'Destination',
+  INSTRUMENTATION_RULE = 'InstrumentationRule',
+  PROCESSOR = 'Processor',
+  ADD_CLUSTER_INFO = 'AddClusterInfo',
+  DELETE_ATTTRIBUTE = 'DeleteAttribute',
+  RENAME_ATTRIBUTE = 'RenameAttribute',
+  PII_MASKING = 'PiiMasking',
+  ERROR_SAMPLER = 'ErrorSampler',
+  LATENCY_SAMPLER = 'LatencySampler',
+  PROBABILISTIC_SAMPLER = 'ProbabilisticSampler',
+}
