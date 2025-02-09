@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.18](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.17...ui-utils-v0.0.18) (2025-02-09)
+
+
+### Features
+
+* add mock data for destinations ([9068778](https://github.com/odigos-io/ui-utils/commit/9068778ec62c0af902e3c4ed08f5c6444e6fa22f))
+
 ## [0.0.17](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.16...ui-utils-v0.0.17) (2025-02-09)
 
 
