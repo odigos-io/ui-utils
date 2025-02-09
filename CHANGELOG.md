@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.16](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.15...ui-utils-v0.0.16) (2025-02-09)
+
+
+### Features
+
+* add entities types ([e6ddaf1](https://github.com/odigos-io/ui-utils/commit/e6ddaf19f09df383e5352ae40400b1384542fcd0))
+* add FIELD_TYPES enum ([4f8b4b2](https://github.com/odigos-io/ui-utils/commit/4f8b4b2b3f5fac741ecd3d12657b288ea3fe9a25))
+
 ## [0.0.15](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.14...ui-utils-v0.0.15) (2025-02-08)
 
 
