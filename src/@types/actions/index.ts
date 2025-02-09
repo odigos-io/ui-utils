@@ -33,7 +33,7 @@ export interface Action {
     // ErrorSampler
     fallbackSamplingRatio?: number | null
     // ProbabilisticSampler
-    samplingPercentage?: string | null
+    samplingPercentage?: number | null
     // LatencySampler
     endpointsFilters?:
       | {

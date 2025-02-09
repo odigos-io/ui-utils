@@ -1,5 +1,7 @@
 export * from './actions'
+export * from './destinations'
 export * from './instrumentation-rules'
 export * from './signals'
+export * from './sources'
 export * from './strings'
 export * from './tokens'
