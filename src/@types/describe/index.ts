@@ -59,7 +59,7 @@ interface ContainerRuntimeInfoAnalyze {
 }
 
 interface RuntimeInfoAnalyze {
-  generation: EntityProperty
+  generation?: EntityProperty
   containers: ContainerRuntimeInfoAnalyze[]
 }
 
@@ -80,7 +80,7 @@ interface OtelAgentsAnalyze {
 interface InstrumentationInstanceAnalyze {
   healthy: EntityProperty
   message?: EntityProperty | null
-  identifyingAttributes: EntityProperty[]
+  identifyingAttributes?: EntityProperty[]
 }
 
 interface PodContainerAnalyze {
