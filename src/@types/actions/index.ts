@@ -1,5 +1,6 @@
 import { SIGNAL_TYPE } from '../signals'
 import type { SVG } from '@odigos/ui-icons'
+import type { Condition, FetchedCondition } from '../status'
 
 export enum ACTION_TYPE {
   ADD_CLUSTER_INFO = 'AddClusterInfo',
@@ -9,6 +10,40 @@ export enum ACTION_TYPE {
   PROBABILISTIC_SAMPLER = 'ProbabilisticSampler',
   LATENCY_SAMPLER = 'LatencySampler',
   PII_MASKING = 'PiiMasking',
+}
+
+export interface Action {
+  id: string
+  type: ACTION_TYPE
+  conditions: FetchedCondition[] | Condition[] | null
+  spec: {
+    actionName?: string
+    notes?: string
+    signals: SIGNAL_TYPE[]
+    disabled?: boolean
+
+    // AddClusterInfo
+    clusterAttributes?: { attributeName: string; attributeStringValue: string }[] | null
+    // DeleteAttributes
+    attributeNamesToDelete?: string[] | null
+    // RenameAttributes
+    renames?: { [oldKey: string]: string } | null
+    // PiiMasking
+    piiCategories?: string[] | null
+    // ErrorSampler
+    fallbackSamplingRatio?: number | null
+    // ProbabilisticSampler
+    samplingPercentage?: string | null
+    // LatencySampler
+    endpointsFilters?:
+      | {
+          serviceName: string
+          httpRoute: string
+          minimumLatencyThreshold: number
+          fallbackSamplingRatio: number
+        }[]
+      | null
+  }
 }
 
 export interface ActionOption {
