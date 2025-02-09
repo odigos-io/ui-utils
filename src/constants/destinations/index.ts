@@ -1,4 +1,4 @@
-import { CONDITION_STATUS, type FetchedCondition, type Destination, FIELD_TYPES } from '../../@types'
+import { CONDITION_STATUS, type FetchedCondition, type Destination, FIELD_TYPES, DestinationOption, DestinationCategories } from '../../@types'
 
 export const MOCK_DESTINATIONS: Destination[] = [
   {
@@ -36,7 +36,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
   },
 ]
 
-export const MOCK_POTENTIAL_DESTINATIONS = [
+export const MOCK_POTENTIAL_DESTINATIONS: DestinationOption[] = [
   {
     type: 'jaeger',
     testConnectionSupported: true,
@@ -104,7 +104,7 @@ export const MOCK_POTENTIAL_DESTINATIONS = [
   },
 ]
 
-export const MOCK_DESTINATION_CATEGORIES = [
+export const MOCK_DESTINATION_CATEGORIES: DestinationCategories = [
   {
     name: 'managed',
     description: 'Effortless Monitoring with Scalable Performance Management',
