@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.23](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.22...ui-utils-v0.0.23) (2025-02-10)
+
+
+### Features
+
+* add new action - K8S_ATTRIBUTES ([031cc44](https://github.com/odigos-io/ui-utils/commit/031cc4484a876e6771a9732e4508871ea3b91b65))
+
 ## [0.0.22](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.21...ui-utils-v0.0.22) (2025-02-10)
 
 
