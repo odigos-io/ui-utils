@@ -24,11 +24,11 @@ export interface Action {
     disabled?: boolean
 
     // K8sAttributes
-    collectContainerAttributes: boolean
-    collectWorkloadId: boolean
-    collectClusterId: boolean
-    labelsAttributes: { labelKey: string; attributeKey: string }[]
-    annotationsAttributes: { annotationKey: string; attributeKey: string }[]
+    collectContainerAttributes?: boolean | null
+    collectWorkloadId?: boolean | null
+    collectClusterId?: boolean | null
+    labelsAttributes?: { labelKey: string; attributeKey: string }[] | null
+    annotationsAttributes?: { annotationKey: string; attributeKey: string }[] | null
 
     // AddClusterInfo
     clusterAttributes?: { attributeName: string; attributeStringValue: string }[] | null
