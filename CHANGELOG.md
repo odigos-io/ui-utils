@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.20](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.19...ui-utils-v0.0.20) (2025-02-10)
+
+
+### Features
+
+* bump icons deps ([83c0747](https://github.com/odigos-io/ui-utils/commit/83c0747d7028ff7d5bcc43c8251155c7615cf564))
+* kill styled-components, use odigos theme instead ([09c8ec0](https://github.com/odigos-io/ui-utils/commit/09c8ec0f3b53fa8ffd486d8008fc898e71172cca))
+
 ## [0.0.19](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.18...ui-utils-v0.0.19) (2025-02-09)
 
 
