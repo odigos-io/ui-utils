@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.21](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.20...ui-utils-v0.0.21) (2025-02-10)
+
+
+### Bug Fixes
+
+* bring back styled ([403f149](https://github.com/odigos-io/ui-utils/commit/403f1492e45352954166f01067c281066efdf967))
+
 ## [0.0.20](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.19...ui-utils-v0.0.20) (2025-02-10)
 
 
