@@ -23,18 +23,31 @@ export interface Action {
     signals: SIGNAL_TYPE[]
     disabled?: boolean
 
+    // K8sAttributes
+    collectContainerAttributes: boolean
+    collectWorkloadId: boolean
+    collectClusterId: boolean
+    labelsAttributes: { labelKey: string; attributeKey: string }[]
+    annotationsAttributes: { annotationKey: string; attributeKey: string }[]
+
     // AddClusterInfo
     clusterAttributes?: { attributeName: string; attributeStringValue: string }[] | null
+
     // DeleteAttributes
     attributeNamesToDelete?: string[] | null
+
     // RenameAttributes
     renames?: { [oldKey: string]: string } | null
+
     // PiiMasking
     piiCategories?: string[] | null
+
     // ErrorSampler
     fallbackSamplingRatio?: number | null
+
     // ProbabilisticSampler
     samplingPercentage?: number | null
+
     // LatencySampler
     endpointsFilters?:
       | {
