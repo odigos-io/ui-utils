@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.22](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.21...ui-utils-v0.0.22) (2025-02-10)
+
+
+### Bug Fixes
+
+* icon deps ([de16d91](https://github.com/odigos-io/ui-utils/commit/de16d910e045bdf1df519ada42ac6ece8e5bec36))
+
 ## [0.0.21](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.20...ui-utils-v0.0.21) (2025-02-10)
 
 
