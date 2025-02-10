@@ -1,4 +1,4 @@
-import { AddClusterInfoIcon, DeleteAttributeIcon, PiiMaskingIcon, RenameAttributeIcon, SamplerIcon, type SVG } from '@odigos/ui-icons'
+import { AddClusterInfoIcon, DeleteAttributeIcon, K8sLogo, PiiMaskingIcon, RenameAttributeIcon, SamplerIcon, type SVG } from '@odigos/ui-icons'
 import { ACTION_TYPE } from '../../@types'
 
 export const getActionIcon = (type: ACTION_TYPE | 'sampler' | 'attributes') => {
@@ -10,6 +10,7 @@ export const getActionIcon = (type: ACTION_TYPE | 'sampler' | 'attributes') => {
   if (isAttributesCategory) return PiiMaskingIcon
 
   const LOGOS: Record<ACTION_TYPE, SVG> = {
+    [ACTION_TYPE.K8S_ATTRIBUTES]: K8sLogo,
     [ACTION_TYPE.ADD_CLUSTER_INFO]: AddClusterInfoIcon,
     [ACTION_TYPE.DELETE_ATTRIBUTES]: DeleteAttributeIcon,
     [ACTION_TYPE.PII_MASKING]: PiiMaskingIcon,

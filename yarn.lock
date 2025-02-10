@@ -1049,16 +1049,6 @@
     react-dom "^19.0.0"
     styled-components "^6.1.15"
 
-"@odigos/ui-theme@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@odigos/ui-theme/-/ui-theme-0.0.15.tgz#6b50485e07c8cf2b94e442d2e0b201426419eb97"
-  integrity sha512-QIW/O7x/q38mmwf+SvXfEbuX0X+PXRovOwVMSDydrGbH8gafgOoufbGL82+KeLVpm7pvJu8MQYIZn8YaOEpdHw==
-  dependencies:
-    react "^19.0.0"
-    react-dom "^19.0.0"
-    styled-components "^6.1.15"
-    zustand "^5.0.3"
-
 "@odigos/ui-theme@^0.0.16":
   version "0.0.16"
   resolved "https://registry.yarnpkg.com/@odigos/ui-theme/-/ui-theme-0.0.16.tgz#99e1b584877e5482ce3b4fc5217cba9e89cd1400"

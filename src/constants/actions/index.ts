@@ -8,6 +8,16 @@ export const ACTION_OPTIONS: ActionOption[] = [
     icon: getActionIcon('attributes'),
     items: [
       {
+        id: 'k8s_attributes',
+        type: ACTION_TYPE.K8S_ATTRIBUTES,
+        icon: getActionIcon(ACTION_TYPE.K8S_ATTRIBUTES),
+        label: 'Kubernetes Attributes',
+        description: 'Add dynamic k8s resource attributes to your data.',
+        allowedSignals: [SIGNAL_TYPE.TRACES, SIGNAL_TYPE.METRICS, SIGNAL_TYPE.LOGS],
+        docsEndpoint: '/pipeline/actions/attributes/k8sattributes',
+        docsDescription: 'This action adds kubernetes related resource attributes to spans, metrics data points and log records.',
+      },
+      {
         id: 'add_cluster_info',
         type: ACTION_TYPE.ADD_CLUSTER_INFO,
         icon: getActionIcon(ACTION_TYPE.ADD_CLUSTER_INFO),
@@ -16,7 +26,7 @@ export const ACTION_OPTIONS: ActionOption[] = [
         allowedSignals: [SIGNAL_TYPE.TRACES, SIGNAL_TYPE.METRICS, SIGNAL_TYPE.LOGS],
         docsEndpoint: '/pipeline/actions/attributes/addclusterinfo',
         docsDescription:
-          'The “Add Cluster Info” Odigos Action can be used to add resource attributes to telemetry signals originated from the k8s cluster where the Odigos is running.',
+          'This action adds static resource attributes to spans, metrics data points and log records. It is useful to add cluster-wide attributes to all telemetry signals.',
       },
       {
         id: 'delete_attribute',
@@ -26,7 +36,8 @@ export const ACTION_OPTIONS: ActionOption[] = [
         description: 'Delete attributes from logs, metrics, and traces.',
         allowedSignals: [SIGNAL_TYPE.TRACES, SIGNAL_TYPE.METRICS, SIGNAL_TYPE.LOGS],
         docsEndpoint: '/pipeline/actions/attributes/deleteattribute',
-        docsDescription: 'The “Delete Attribute” Odigos Action can be used to delete attributes from logs, metrics, and traces.',
+        docsDescription:
+          'This action will delete the specified attributes from all telemetry signals that are specified in the signals field, regardless of the source, or any other condition.',
       },
       {
         id: 'rename_attribute',
@@ -37,7 +48,7 @@ export const ACTION_OPTIONS: ActionOption[] = [
         allowedSignals: [SIGNAL_TYPE.TRACES, SIGNAL_TYPE.METRICS, SIGNAL_TYPE.LOGS],
         docsEndpoint: '/pipeline/actions/attributes/renameattribute',
         docsDescription:
-          'The “Rename Attribute” Odigos Action can be used to rename attributes from logs, metrics, and traces. Different instrumentations might use different attribute names for similar information. This action let’s you to consolidate the names across your cluster.',
+          'This action will rename the specified attributes from all telemetry signals that are specified in the signals field, regardless of the source, or any other condition.',
       },
       {
         id: 'pii-masking',
@@ -47,7 +58,7 @@ export const ACTION_OPTIONS: ActionOption[] = [
         description: 'Mask PII data in your traces.',
         allowedSignals: [SIGNAL_TYPE.TRACES],
         docsEndpoint: '/pipeline/actions/attributes/piimasking',
-        docsDescription: 'The “PII Masking” Odigos Action can be used to mask PII data from span attribute values.',
+        docsDescription: 'This action processes a list of PII categories to be masked from the traces.',
       },
     ],
   },
@@ -64,7 +75,7 @@ export const ACTION_OPTIONS: ActionOption[] = [
         description: 'Sample errors based on percentage.',
         allowedSignals: [SIGNAL_TYPE.TRACES],
         docsEndpoint: '/pipeline/actions/sampling/errorsampler',
-        docsDescription: 'The “Error Sampler” Odigos Action is a Global Action that supports error sampling by filtering out non-error traces.',
+        docsDescription: 'This action is a Global Action that supports error sampling by filtering out non-error traces.',
       },
       {
         id: 'latency-action',
@@ -75,7 +86,7 @@ export const ACTION_OPTIONS: ActionOption[] = [
         allowedSignals: [SIGNAL_TYPE.TRACES],
         docsEndpoint: '/pipeline/actions/sampling/latencysampler',
         docsDescription:
-          'The “Latency Sampler” Odigos Action is an Endpoint Action that samples traces based on their duration for a specific service and endpoint (HTTP route) filter.',
+          'This action is an Endpoint Action that samples traces based on their duration for a specific service and endpoint (HTTP route) filter.',
       },
       {
         id: 'probabilistic-sampler',
@@ -85,8 +96,7 @@ export const ACTION_OPTIONS: ActionOption[] = [
         description: 'Sample traces based on percentage.',
         allowedSignals: [SIGNAL_TYPE.TRACES],
         docsEndpoint: '/pipeline/actions/sampling/probabilisticsampler',
-        docsDescription:
-          'The “Probabilistic Sampler” Odigos Action supports probabilistic sampling based on a configured sampling percentage applied to the TraceID.',
+        docsDescription: 'This action supports probabilistic sampling based on a configured sampling percentage applied to the TraceID.',
       },
     ],
   },
