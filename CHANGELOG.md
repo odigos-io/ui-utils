@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.24](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.23...ui-utils-v0.0.24) (2025-02-10)
+
+
+### Features
+
+* add K8sAttributes keys to Action interface ([4e583c7](https://github.com/odigos-io/ui-utils/commit/4e583c76dc83827a16575005106a5d76456a28dc))
+
+
+### Bug Fixes
+
+* build error ([4237eca](https://github.com/odigos-io/ui-utils/commit/4237eca7e4c2613f2dbd09a41b9d6e5b813e8b24))
+
 ## [0.0.23](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.22...ui-utils-v0.0.23) (2025-02-10)
 
 
