@@ -21,14 +21,14 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@odigos/ui-icons": "^0.0.10",
+    "@odigos/ui-icons": "^0.0.11",
     "@odigos/ui-theme": "^0.0.15",
     "javascript-time-ago": "^2.5.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "dependencies": {
-    "@odigos/ui-icons": "^0.0.10",
+    "@odigos/ui-icons": "^0.0.11",
     "@odigos/ui-theme": "^0.0.15",
     "javascript-time-ago": "^2.5.11",
     "react": "^19.0.0",
