@@ -1,10 +1,11 @@
 import React, { type DetailedHTMLProps, type HTMLAttributes, type PropsWithChildren, useCallback, useEffect, useState } from 'react'
-import { styled, type StyledTypes } from '@odigos/ui-theme'
+import styled from 'styled-components'
+import type { IStyledComponentBase, Substitute, Keyframes } from 'styled-components/dist/types'
 
 interface HookProps {
-  container: StyledTypes.IStyledComponentBase<'web', StyledTypes.Substitute<DetailedHTMLProps<HTMLAttributes<any>, any>, any>> & string
-  animateIn: StyledTypes.Keyframes
-  animateOut?: StyledTypes.Keyframes
+  container: IStyledComponentBase<'web', Substitute<DetailedHTMLProps<HTMLAttributes<any>, any>, any>> & string
+  animateIn: Keyframes
+  animateOut?: Keyframes
   duration?: number // in milliseconds
 }
 
