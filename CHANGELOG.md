@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.25](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.24...ui-utils-v0.0.25) (2025-02-11)
+
+
+### Bug Fixes
+
+* K8sAttributes ---&gt; K8sAttributesResolver ([9955b68](https://github.com/odigos-io/ui-utils/commit/9955b68968c79dc96c80a0797a31cc652781c842))
+
 ## [0.0.24](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.23...ui-utils-v0.0.24) (2025-02-10)
 
 
