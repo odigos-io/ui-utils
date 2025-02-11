@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.26](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.25...ui-utils-v0.0.26) (2025-02-11)
+
+
+### Features
+
+* export data dir ([b81e68f](https://github.com/odigos-io/ui-utils/commit/b81e68fab79056bf2126ee8694f9540bd37a32b1))
+* moved mock data to /src/data ([df5e4c8](https://github.com/odigos-io/ui-utils/commit/df5e4c8b29a276a67f630c84a280548622f9fc5a))
+
 ## [0.0.25](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.24...ui-utils-v0.0.25) (2025-02-11)
 
 
