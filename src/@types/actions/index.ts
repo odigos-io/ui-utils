@@ -3,7 +3,7 @@ import type { SVG } from '@odigos/ui-icons'
 import type { Condition, FetchedCondition } from '../status'
 
 export enum ACTION_TYPE {
-  K8S_ATTRIBUTES = 'K8sAttributes',
+  K8S_ATTRIBUTES = 'K8sAttributesResolver',
   ADD_CLUSTER_INFO = 'AddClusterInfo',
   DELETE_ATTRIBUTES = 'DeleteAttribute',
   RENAME_ATTRIBUTES = 'RenameAttribute',
