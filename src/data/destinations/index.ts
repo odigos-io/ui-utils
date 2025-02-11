@@ -1,4 +1,4 @@
-import { CONDITION_STATUS, type FetchedCondition, type Destination, FIELD_TYPES, DestinationOption, DestinationCategories } from '../../@types'
+import { CONDITION_STATUS, type Destination, FIELD_TYPES, DestinationOption, DestinationCategories } from '../../@types'
 
 export const MOCK_DESTINATIONS: Destination[] = [
   {
@@ -28,10 +28,12 @@ export const MOCK_DESTINATIONS: Destination[] = [
     },
     conditions: [
       {
-        type: 'DestinationConfigured',
         status: CONDITION_STATUS.TRUE,
+        type: 'DestinationConfigured',
+        reason: 'SomethingReason',
         message: 'Destination successfully transformed to otelcol configuration',
-      } as FetchedCondition,
+        lastTransitionTime: '2025-02-11T08:20:03Z',
+      },
     ],
   },
 ]

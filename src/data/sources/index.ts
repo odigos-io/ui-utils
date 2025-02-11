@@ -1,4 +1,4 @@
-import { CONDITION_STATUS, type FetchedCondition, K8S_RESOURCE_KIND, PROGRAMMING_LANGUAGES, type Source } from '../../@types'
+import { CONDITION_STATUS, K8S_RESOURCE_KIND, PROGRAMMING_LANGUAGES, type Source } from '../../@types'
 
 export const MOCK_SOURCES: Source[] = [
   {
@@ -20,19 +20,25 @@ export const MOCK_SOURCES: Source[] = [
     conditions: [
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: 'agent injected successfully to 1 containers: [coupon]',
         lastTransitionTime: '2025-02-09T08:44:05Z',
-      } as FetchedCondition,
+      },
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: 'workload rollout triggered successfully',
         lastTransitionTime: '2025-02-09T08:44:05Z',
-      } as FetchedCondition,
+      },
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: '1/1 instances are healthy',
         lastTransitionTime: '2025-02-09T08:44:09Z',
-      } as FetchedCondition,
+      },
     ],
   },
   {
@@ -54,24 +60,32 @@ export const MOCK_SOURCES: Source[] = [
     conditions: [
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: 'agent injected successfully to 1 containers: [frontend]',
         lastTransitionTime: '2025-02-09T08:44:04Z',
-      } as FetchedCondition,
+      },
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: 'workload rollout triggered successfully',
         lastTransitionTime: '2025-02-09T08:44:05Z',
-      } as FetchedCondition,
+      },
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: '1/1 instances are healthy',
         lastTransitionTime: '2025-02-09T08:44:08Z',
-      } as FetchedCondition,
+      },
       {
-        status: CONDITION_STATUS.FALSE,
+        status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: 'workload failed to... something',
         lastTransitionTime: '2025-02-09T09:00:00Z',
-      } as FetchedCondition,
+      },
     ],
   },
   {
@@ -93,19 +107,25 @@ export const MOCK_SOURCES: Source[] = [
     conditions: [
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: 'agent injected successfully to 1 containers: [inventory]',
         lastTransitionTime: '2025-02-09T08:44:04Z',
-      } as FetchedCondition,
+      },
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: 'workload rollout triggered successfully',
         lastTransitionTime: '2025-02-09T08:44:04Z',
-      } as FetchedCondition,
+      },
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: '2/2 instances are healthy',
         lastTransitionTime: '2025-02-09T08:44:07Z',
-      } as FetchedCondition,
+      },
     ],
   },
   {
@@ -127,19 +147,25 @@ export const MOCK_SOURCES: Source[] = [
     conditions: [
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: 'agent injected successfully to 1 containers: [membership]',
         lastTransitionTime: '2025-02-09T08:44:05Z',
-      } as FetchedCondition,
+      },
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: 'workload rollout triggered successfully',
         lastTransitionTime: '2025-02-09T08:44:05Z',
-      } as FetchedCondition,
+      },
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: '1/1 instances are healthy',
         lastTransitionTime: '2025-02-09T08:44:12Z',
-      } as FetchedCondition,
+      },
     ],
   },
   {
@@ -161,14 +187,18 @@ export const MOCK_SOURCES: Source[] = [
     conditions: [
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: 'agent injected successfully to 1 containers: [pricing]',
         lastTransitionTime: '2025-02-09T08:44:05Z',
-      } as FetchedCondition,
+      },
       {
         status: CONDITION_STATUS.TRUE,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
         message: 'workload rollout triggered successfully',
         lastTransitionTime: '2025-02-09T08:44:05Z',
-      } as FetchedCondition,
+      },
     ],
   },
 ]
