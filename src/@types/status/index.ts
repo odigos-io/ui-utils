@@ -30,6 +30,8 @@ export interface FetchedCondition {
 // Condition is the condition after it has been mapped
 export interface Condition {
   status: NOTIFICATION_TYPE
+  type: string
+  reason: string
   message: string
   lastTransitionTime: string
 }
