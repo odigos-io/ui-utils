@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.27](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.26...ui-utils-v0.0.27) (2025-02-12)
+
+
+### Features
+
+* add "split" type and reason to mapped conditions ([5096743](https://github.com/odigos-io/ui-utils/commit/50967435d9eebb646973708f8e9778229cb873ae))
+* add function - splitCamelString ([2a0684d](https://github.com/odigos-io/ui-utils/commit/2a0684dc6a77c1b45674d91c41277710c0b56379))
+
 ## [0.0.26](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.25...ui-utils-v0.0.26) (2025-02-11)
 
 
