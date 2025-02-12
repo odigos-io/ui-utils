@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.28](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.27...ui-utils-v0.0.28) (2025-02-12)
+
+
+### Bug Fixes
+
+* undefined.replace ([5714ecc](https://github.com/odigos-io/ui-utils/commit/5714eccbf2da5d6ecc71bbc8390dedff3b344e33))
+
 ## [0.0.27](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.26...ui-utils-v0.0.27) (2025-02-12)
 
 
