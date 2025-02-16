@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.29](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.28...ui-utils-v0.0.29) (2025-02-16)
+
+
+### Features
+
+* add TIER enums ([5944536](https://github.com/odigos-io/ui-utils/commit/5944536461754a8be7f99eee49033d06054bf258))
+
 ## [0.0.28](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.27...ui-utils-v0.0.28) (2025-02-12)
 
 
