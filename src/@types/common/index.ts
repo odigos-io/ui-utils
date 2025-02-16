@@ -1,8 +1,12 @@
-export enum CRUD {
-  CREATE = 'Create',
-  READ = 'Read',
-  UPDATE = 'Update',
-  DELETE = 'Delete',
+export enum TIER {
+  COMMUNITY = 'community',
+  CLOUD = 'cloud',
+  ONPREM = 'onprem',
+}
+
+export enum PLATFORM_TYPE {
+  K8S = 'k8s',
+  VM = 'vm',
 }
 
 export enum PROGRAMMING_LANGUAGES {
@@ -21,9 +25,11 @@ export enum PROGRAMMING_LANGUAGES {
   NO_RUNNING_PODS = 'no running pods', // no running pods are available for language detection
 }
 
-export enum PLATFORM_TYPE {
-  K8S = 'k8s',
-  VM = 'vm',
+export enum CRUD {
+  CREATE = 'Create',
+  READ = 'Read',
+  UPDATE = 'Update',
+  DELETE = 'Delete',
 }
 
 export enum ENTITY_TYPES {
