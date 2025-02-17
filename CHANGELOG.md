@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.30](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.29...ui-utils-v0.0.30) (2025-02-17)
+
+
+### Features
+
+* add funcs - getPlatformIcon, getPlatformLabel ([7be6464](https://github.com/odigos-io/ui-utils/commit/7be64640e36f67381106e4d7875d944fb685e176))
+
 ## [0.0.29](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.28...ui-utils-v0.0.29) (2025-02-16)
 
 
