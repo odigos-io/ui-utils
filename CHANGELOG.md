@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.33](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.32...ui-utils-v0.0.33) (2025-02-18)
+
+
+### Bug Fixes
+
+* remove ID from dropdown options ([a6fb1eb](https://github.com/odigos-io/ui-utils/commit/a6fb1eb6324332152ba747e42a7cbc82b78a4ce0))
+
 ## [0.0.32](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.31...ui-utils-v0.0.32) (2025-02-18)
 
 
