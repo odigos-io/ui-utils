@@ -61,8 +61,7 @@ export interface Action {
 }
 
 export interface ActionOption {
-  id: string
-  type?: ACTION_TYPE
+  type?: ACTION_TYPE // optional because of "items" below
   icon?: SVG
   label: string
   description?: string

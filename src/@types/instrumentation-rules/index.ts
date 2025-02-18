@@ -68,12 +68,10 @@ export interface CodeAttributes {
 }
 
 export interface InstrumentationRuleOption {
-  id: string
-  type?: INSTRUMENTATION_RULE_TYPE
-  icon?: SVG
+  type: INSTRUMENTATION_RULE_TYPE
+  icon: SVG
   label: string
   description?: string
   docsEndpoint?: string
   docsDescription?: string
-  items?: InstrumentationRuleOption[]
 }
