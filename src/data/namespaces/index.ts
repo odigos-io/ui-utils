@@ -1,7 +1,7 @@
 import { MOCK_SOURCES } from '../sources'
-import { CONDITION_STATUS, K8S_RESOURCE_KIND } from '../../@types'
+import { CONDITION_STATUS, K8S_RESOURCE_KIND, PROGRAMMING_LANGUAGES, type Namespace } from '../../@types'
 
-export const MOCK_NAMESPACES = [
+export const MOCK_NAMESPACES: Namespace[] = [
   {
     name: 'default',
     selected: false,
@@ -25,7 +25,7 @@ export const MOCK_NAMESPACES = [
         containers: [
           {
             containerName: 'jaeger-v2',
-            language: 'go',
+            language: PROGRAMMING_LANGUAGES.GO,
             runtimeVersion: '1.23.4',
             instrumented: true,
             instrumentationMessage: '',
@@ -64,7 +64,7 @@ export const MOCK_NAMESPACES = [
           {
             status: CONDITION_STATUS.TRUE,
             type: 'HealthyInstrumentationInstances',
-            reason: null,
+            reason: '',
             message: '1/1 instances are healthy',
             lastTransitionTime: '2025-02-18T13:31:05+02:00',
           },
