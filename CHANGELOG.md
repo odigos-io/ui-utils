@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.32](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.31...ui-utils-v0.0.32) (2025-02-18)
+
+
+### Bug Fixes
+
+* type for namespace mock ([73187e4](https://github.com/odigos-io/ui-utils/commit/73187e4acaadcedb90f02a64c19fe04ff22e1ecc))
+
 ## [0.0.31](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.30...ui-utils-v0.0.31) (2025-02-18)
 
 
