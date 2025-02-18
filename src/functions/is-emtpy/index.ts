@@ -3,10 +3,10 @@
 
 export const isEmpty = (val: any) => {
   if (Array.isArray(val)) {
-    return !val.length;
+    return !val?.length
   } else if (typeof val === 'object') {
-    return !Object.keys(val).length;
+    return !Object.keys(val || {}).length
   } else {
-    return [undefined, null, ''].includes(val);
+    return [undefined, null, ''].includes(val)
   }
-};
+}
