@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.0.31](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.30...ui-utils-v0.0.31) (2025-02-18)
+
+
+### Features
+
+* add false condition to mocked source ([b2bd8d3](https://github.com/odigos-io/ui-utils/commit/b2bd8d31c49379b646c63fee21ad75140c00234c))
+* add namespace types and mocked data ([e29db27](https://github.com/odigos-io/ui-utils/commit/e29db27c14a6341147c367fbee9aa3113e81e6ad))
+
+
+### Bug Fixes
+
+* isEmpty values ([ab97478](https://github.com/odigos-io/ui-utils/commit/ab97478b980e7af694ed252698494bcd4836df97))
+
 ## [0.0.30](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.29...ui-utils-v0.0.30) (2025-02-17)
 
 
