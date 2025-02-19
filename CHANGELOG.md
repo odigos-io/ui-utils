@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.34](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.33...ui-utils-v0.0.34) (2025-02-19)
+
+
+### Bug Fixes
+
+* getEntityId to check for existing values (not only existing keys) ([55d7377](https://github.com/odigos-io/ui-utils/commit/55d737791581d750dd43875fd10f7c94c5c85efb))
+
 ## [0.0.33](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.32...ui-utils-v0.0.33) (2025-02-18)
 
 
