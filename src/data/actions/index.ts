@@ -17,6 +17,8 @@ export const MOCK_ACTIONS: Action[] = [
         { annotationKey: 'kubectl.kubernetes.io/createdAt', attributeKey: 'created_at' },
         { annotationKey: 'kubectl.kubernetes.io/restartedAt', attributeKey: 'restarted_at' },
       ],
+      notes:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper finibus augue id aliquet. Nullam suscipit ultricies risus. Cras ante ex, interdum ac arcu ut, tincidunt sodales magna. Suspendisse potenti. Duis quis pulvinar turpis. Etiam pretium dui vitae euismod rutrum. Integer sodales diam a odio tincidunt tempus. Cras sit amet semper magna. In sed purus volutpat lacus gravida mattis. Aliquam et nunc felis.',
     },
     conditions: [
       {
@@ -37,6 +39,8 @@ export const MOCK_ACTIONS: Action[] = [
         { attributeName: 'key', attributeStringValue: 'val' },
         { attributeName: 'ben', attributeStringValue: 'elferink' },
       ],
+      notes:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper finibus augue id aliquet. Nullam suscipit ultricies risus. Cras ante ex, interdum ac arcu ut, tincidunt sodales magna. Suspendisse potenti. Duis quis pulvinar turpis. Etiam pretium dui vitae euismod rutrum. Integer sodales diam a odio tincidunt tempus. Cras sit amet semper magna. In sed purus volutpat lacus gravida mattis. Aliquam et nunc felis.',
     },
     conditions: [
       {
@@ -54,6 +58,8 @@ export const MOCK_ACTIONS: Action[] = [
     spec: {
       signals: [SIGNAL_TYPE.LOGS, SIGNAL_TYPE.METRICS, SIGNAL_TYPE.TRACES],
       attributeNamesToDelete: ['test', 'dev_only'],
+      notes:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper finibus augue id aliquet. Nullam suscipit ultricies risus. Cras ante ex, interdum ac arcu ut, tincidunt sodales magna. Suspendisse potenti. Duis quis pulvinar turpis. Etiam pretium dui vitae euismod rutrum. Integer sodales diam a odio tincidunt tempus. Cras sit amet semper magna. In sed purus volutpat lacus gravida mattis. Aliquam et nunc felis.',
     },
     conditions: [
       {
@@ -71,6 +77,8 @@ export const MOCK_ACTIONS: Action[] = [
     spec: {
       signals: [SIGNAL_TYPE.LOGS, SIGNAL_TYPE.METRICS, SIGNAL_TYPE.TRACES],
       renames: { orel: 'otel', oren_telemetry: 'open_telemetry' },
+      notes:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper finibus augue id aliquet. Nullam suscipit ultricies risus. Cras ante ex, interdum ac arcu ut, tincidunt sodales magna. Suspendisse potenti. Duis quis pulvinar turpis. Etiam pretium dui vitae euismod rutrum. Integer sodales diam a odio tincidunt tempus. Cras sit amet semper magna. In sed purus volutpat lacus gravida mattis. Aliquam et nunc felis.',
     },
     conditions: [
       {
@@ -88,6 +96,8 @@ export const MOCK_ACTIONS: Action[] = [
     spec: {
       signals: [SIGNAL_TYPE.TRACES],
       fallbackSamplingRatio: 69,
+      notes:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper finibus augue id aliquet. Nullam suscipit ultricies risus. Cras ante ex, interdum ac arcu ut, tincidunt sodales magna. Suspendisse potenti. Duis quis pulvinar turpis. Etiam pretium dui vitae euismod rutrum. Integer sodales diam a odio tincidunt tempus. Cras sit amet semper magna. In sed purus volutpat lacus gravida mattis. Aliquam et nunc felis.',
     },
     conditions: [
       {
@@ -112,6 +122,8 @@ export const MOCK_ACTIONS: Action[] = [
           fallbackSamplingRatio: 69,
         },
       ],
+      notes:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper finibus augue id aliquet. Nullam suscipit ultricies risus. Cras ante ex, interdum ac arcu ut, tincidunt sodales magna. Suspendisse potenti. Duis quis pulvinar turpis. Etiam pretium dui vitae euismod rutrum. Integer sodales diam a odio tincidunt tempus. Cras sit amet semper magna. In sed purus volutpat lacus gravida mattis. Aliquam et nunc felis.',
     },
     conditions: [
       {
@@ -129,6 +141,8 @@ export const MOCK_ACTIONS: Action[] = [
     spec: {
       signals: [SIGNAL_TYPE.TRACES],
       samplingPercentage: 69,
+      notes:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper finibus augue id aliquet. Nullam suscipit ultricies risus. Cras ante ex, interdum ac arcu ut, tincidunt sodales magna. Suspendisse potenti. Duis quis pulvinar turpis. Etiam pretium dui vitae euismod rutrum. Integer sodales diam a odio tincidunt tempus. Cras sit amet semper magna. In sed purus volutpat lacus gravida mattis. Aliquam et nunc felis.',
     },
     conditions: [
       {
@@ -146,6 +160,8 @@ export const MOCK_ACTIONS: Action[] = [
     spec: {
       signals: [SIGNAL_TYPE.TRACES],
       piiCategories: ['CREDIT_CARD'],
+      notes:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper finibus augue id aliquet. Nullam suscipit ultricies risus. Cras ante ex, interdum ac arcu ut, tincidunt sodales magna. Suspendisse potenti. Duis quis pulvinar turpis. Etiam pretium dui vitae euismod rutrum. Integer sodales diam a odio tincidunt tempus. Cras sit amet semper magna. In sed purus volutpat lacus gravida mattis. Aliquam et nunc felis.',
     },
     conditions: [
       {

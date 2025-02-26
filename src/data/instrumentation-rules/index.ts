@@ -5,7 +5,8 @@ export const MOCK_INSTRUMENTATION_RULES: InstrumentationRule[] = [
     type: INSTRUMENTATION_RULE_TYPE.PAYLOAD_COLLECTION,
     ruleId: 'ui-instrumentation-rule-gdpzw',
     ruleName: '',
-    notes: '',
+    notes:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper finibus augue id aliquet. Nullam suscipit ultricies risus. Cras ante ex, interdum ac arcu ut, tincidunt sodales magna. Suspendisse potenti. Duis quis pulvinar turpis. Etiam pretium dui vitae euismod rutrum. Integer sodales diam a odio tincidunt tempus. Cras sit amet semper magna. In sed purus volutpat lacus gravida mattis. Aliquam et nunc felis.',
     disabled: false,
     mutable: true,
     profileName: '',
@@ -42,7 +43,8 @@ export const MOCK_INSTRUMENTATION_RULES: InstrumentationRule[] = [
     type: INSTRUMENTATION_RULE_TYPE.CODE_ATTRIBUTES,
     ruleId: 'ui-instrumentation-rule-zkk79',
     ruleName: '',
-    notes: '',
+    notes:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper finibus augue id aliquet. Nullam suscipit ultricies risus. Cras ante ex, interdum ac arcu ut, tincidunt sodales magna. Suspendisse potenti. Duis quis pulvinar turpis. Etiam pretium dui vitae euismod rutrum. Integer sodales diam a odio tincidunt tempus. Cras sit amet semper magna. In sed purus volutpat lacus gravida mattis. Aliquam et nunc felis.',
     disabled: false,
     mutable: true,
     profileName: '',
