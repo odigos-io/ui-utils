@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.35](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.34...ui-utils-v0.0.35) (2025-02-26)
+
+
+### Features
+
+* add lorem ipsum as notes in mock data ([3b4ccad](https://github.com/odigos-io/ui-utils/commit/3b4ccada510bacc3c3d80a33be4945e8e7d72216))
+
 ## [0.0.34](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.33...ui-utils-v0.0.34) (2025-02-19)
 
 
