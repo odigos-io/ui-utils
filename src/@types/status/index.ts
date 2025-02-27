@@ -22,8 +22,8 @@ export enum CONDITION_STATUS {
 export interface FetchedCondition {
   status: CONDITION_STATUS
   type: string
-  reason: string
-  message: string
+  reason?: string | null
+  message?: string | null
   lastTransitionTime: string
 }
 
@@ -31,7 +31,7 @@ export interface FetchedCondition {
 export interface Condition {
   status: NOTIFICATION_TYPE
   type: string
-  reason: string
-  message: string
+  reason?: string | null
+  message?: string | null
   lastTransitionTime: string
 }
