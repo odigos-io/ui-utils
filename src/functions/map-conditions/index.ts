@@ -13,7 +13,7 @@ export const mapConditions = (conditions: (FetchedCondition | Condition)[]): Con
           ? NOTIFICATION_TYPE.WARNING
           : (status as NOTIFICATION_TYPE),
       type: splitCamelString(type),
-      reason: splitCamelString(reason),
+      reason: !!reason ? splitCamelString(reason) : '',
       message,
       lastTransitionTime,
     })) || []
