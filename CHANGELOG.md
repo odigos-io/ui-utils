@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.36](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.35...ui-utils-v0.0.36) (2025-02-27)
+
+
+### Bug Fixes
+
+* build error ([87b235a](https://github.com/odigos-io/ui-utils/commit/87b235a9b0fbb841236bef415fa983b18edf339a))
+* type for conditions ([542de7b](https://github.com/odigos-io/ui-utils/commit/542de7bef3c6e5c17b4a0b5d018cf0663a06904c))
+
 ## [0.0.35](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.34...ui-utils-v0.0.35) (2025-02-26)
 
 
