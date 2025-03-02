@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.37](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.36...ui-utils-v0.0.37) (2025-03-02)
+
+
+### Features
+
+* reduce fetched type from conditions ([1d27df5](https://github.com/odigos-io/ui-utils/commit/1d27df5b2c1299bd71635c159a983b3cffaadc6b))
+
 ## [0.0.36](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.35...ui-utils-v0.0.36) (2025-02-27)
 
 
