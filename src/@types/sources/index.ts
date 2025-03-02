@@ -1,5 +1,5 @@
 import { PROGRAMMING_LANGUAGES } from '../common'
-import type { Condition, FetchedCondition } from '../status'
+import type { Condition } from '../status'
 
 export enum K8S_RESOURCE_KIND {
   DEPLOYMENT = 'Deployment',
@@ -27,5 +27,5 @@ export interface Source extends WorkloadId {
         otelDistroName: string | null
       }[]
     | null
-  conditions: FetchedCondition[] | Condition[] | null
+  conditions: Condition[] | null
 }

@@ -1,4 +1,4 @@
-import { CONDITION_STATUS, K8S_RESOURCE_KIND, PROGRAMMING_LANGUAGES, type Source } from '../../@types'
+import { K8S_RESOURCE_KIND, NOTIFICATION_TYPE, PROGRAMMING_LANGUAGES, type Source } from '../../@types'
 
 export const MOCK_SOURCES: Source[] = [
   {
@@ -19,21 +19,21 @@ export const MOCK_SOURCES: Source[] = [
     ],
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: 'agent injected successfully to 1 containers: [coupon]',
         lastTransitionTime: '2025-02-09T08:44:05Z',
       },
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: 'workload rollout triggered successfully',
         lastTransitionTime: '2025-02-09T08:44:05Z',
       },
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: '1/1 instances are healthy',
@@ -59,28 +59,28 @@ export const MOCK_SOURCES: Source[] = [
     ],
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: 'agent injected successfully to 1 containers: [frontend]',
         lastTransitionTime: '2025-02-09T08:44:04Z',
       },
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: 'workload rollout triggered successfully',
         lastTransitionTime: '2025-02-09T08:44:05Z',
       },
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: '1/1 instances are healthy',
         lastTransitionTime: '2025-02-09T08:44:08Z',
       },
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: 'workload failed to... something',
@@ -106,25 +106,32 @@ export const MOCK_SOURCES: Source[] = [
     ],
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: 'agent injected successfully to 1 containers: [inventory]',
         lastTransitionTime: '2025-02-09T08:44:04Z',
       },
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: 'workload rollout triggered successfully',
         lastTransitionTime: '2025-02-09T08:44:04Z',
       },
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.ERROR,
+        type: 'SomethingType',
+        reason: 'SomethingReason',
+        message: 'unknown error occurred',
+        lastTransitionTime: '2025-02-09T08:44:08Z',
+      },
+      {
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: '2/2 instances are healthy',
-        lastTransitionTime: '2025-02-09T08:44:07Z',
+        lastTransitionTime: '2025-02-09T08:44:09Z',
       },
     ],
   },
@@ -146,35 +153,35 @@ export const MOCK_SOURCES: Source[] = [
     ],
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'MarkedForInstrumentation',
         reason: 'WorkloadSource',
         message: "workload marked for automatic instrumentation by workload source CR 'source-5hzlj' in namespace 'default'",
         lastTransitionTime: '2025-02-18T11:33:25Z',
       },
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'RuntimeDetection',
         reason: 'DetectedSuccessfully',
         message: 'runtime detection completed successfully',
         lastTransitionTime: '2025-02-18T11:33:25Z',
       },
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'AgentEnabled',
         reason: 'EnabledSuccessfully',
         message: 'agent injected successfully to 1 containers: [membership]',
         lastTransitionTime: '2025-02-18T11:33:25Z',
       },
       {
-        status: CONDITION_STATUS.FALSE,
+        status: 'loading',
         type: 'WorkloadRollout',
         reason: 'PreviousRolloutOngoing',
         message: 'waiting for workload rollout to finish before triggering a new one',
         lastTransitionTime: '2025-02-18T11:33:25Z',
       },
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'HealthyInstrumentationInstances',
         reason: '',
         message: '1/1 instances are healthy',
@@ -200,14 +207,14 @@ export const MOCK_SOURCES: Source[] = [
     ],
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: 'agent injected successfully to 1 containers: [pricing]',
         lastTransitionTime: '2025-02-09T08:44:05Z',
       },
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'SomethingType',
         reason: 'SomethingReason',
         message: 'workload rollout triggered successfully',
@@ -216,3 +223,22 @@ export const MOCK_SOURCES: Source[] = [
     ],
   },
 ]
+
+export const MOCK_SOURCE_JAEGER = {
+  namespace: 'tracing',
+  name: 'jaeger',
+  kind: K8S_RESOURCE_KIND.DEPLOYMENT,
+  selected: true,
+  otelServiceName: '',
+  containers: [
+    {
+      containerName: 'jaeger-v2',
+      language: PROGRAMMING_LANGUAGES.GO,
+      runtimeVersion: '1.23.4',
+      instrumented: true,
+      instrumentationMessage: '',
+      otelDistroName: 'golang-enterprise',
+    },
+  ],
+  conditions: [],
+}

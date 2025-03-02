@@ -1,6 +1,6 @@
 import { SIGNAL_TYPE } from '../signals'
 import type { SVG } from '@odigos/ui-icons'
-import type { Condition, FetchedCondition } from '../status'
+import type { Condition } from '../status'
 
 export enum ACTION_TYPE {
   K8S_ATTRIBUTES = 'K8sAttributesResolver',
@@ -16,7 +16,7 @@ export enum ACTION_TYPE {
 export interface Action {
   id: string
   type: ACTION_TYPE
-  conditions: FetchedCondition[] | Condition[] | null
+  conditions: Condition[] | null
   spec: {
     actionName?: string
     notes?: string

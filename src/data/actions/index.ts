@@ -1,4 +1,4 @@
-import { type Action, ACTION_TYPE, SIGNAL_TYPE, CONDITION_STATUS } from '../../@types'
+import { type Action, ACTION_TYPE, NOTIFICATION_TYPE, SIGNAL_TYPE } from '../../@types'
 
 export const MOCK_ACTIONS: Action[] = [
   {
@@ -22,7 +22,7 @@ export const MOCK_ACTIONS: Action[] = [
     },
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'ActionTransformedToProcessorType',
         reason: 'ProcessorCreated',
         message: 'The action successfully transformed to a unified processor',
@@ -44,7 +44,7 @@ export const MOCK_ACTIONS: Action[] = [
     },
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'TransformedToProcessor',
         reason: 'ProcessorCreated',
         message: 'The action has been reconciled to a processor resource.',
@@ -63,7 +63,7 @@ export const MOCK_ACTIONS: Action[] = [
     },
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'TransformedToProcessor',
         reason: 'ProcessorCreated',
         message: 'The action has been reconciled to a processor resource.',
@@ -82,7 +82,7 @@ export const MOCK_ACTIONS: Action[] = [
     },
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'TransformedToProcessor',
         reason: 'ProcessorCreated',
         message: 'The action has been reconciled to a processor resource.',
@@ -101,7 +101,7 @@ export const MOCK_ACTIONS: Action[] = [
     },
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'ActionTransformedToProcessorType',
         reason: 'ProcessorCreatedReason',
         message: 'The action has been reconciled to a processor resource.',
@@ -127,7 +127,7 @@ export const MOCK_ACTIONS: Action[] = [
     },
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'ActionTransformedToProcessorType',
         reason: 'ProcessorCreatedReason',
         message: 'The action has been reconciled to a processor resource.',
@@ -146,7 +146,7 @@ export const MOCK_ACTIONS: Action[] = [
     },
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'TransformedToProcessor',
         reason: 'ProcessorCreated',
         message: 'The action has been reconciled to a processor resource.',
@@ -165,7 +165,7 @@ export const MOCK_ACTIONS: Action[] = [
     },
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'TransformedToProcessor',
         reason: 'ProcessorCreated',
         message: 'The action has been reconciled to a processor resource.',

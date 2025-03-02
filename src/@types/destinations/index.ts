@@ -1,6 +1,6 @@
 import { FIELD_TYPES } from '../common'
 import type { Comparison } from '../../functions'
-import type { Condition, FetchedCondition } from '../status'
+import type { Condition } from '../status'
 
 export interface Destination {
   id: string
@@ -11,7 +11,7 @@ export interface Destination {
     logs: boolean
   }
   fields: string
-  conditions: FetchedCondition[] | Condition[] | null
+  conditions: Condition[] | null
   destinationType: {
     type: string
     displayName: string

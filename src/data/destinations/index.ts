@@ -1,4 +1,4 @@
-import { CONDITION_STATUS, type Destination, FIELD_TYPES, DestinationOption, DestinationCategories } from '../../@types'
+import { type Destination, FIELD_TYPES, DestinationOption, DestinationCategories, NOTIFICATION_TYPE } from '../../@types'
 
 export const MOCK_DESTINATIONS: Destination[] = [
   {
@@ -28,7 +28,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
     },
     conditions: [
       {
-        status: CONDITION_STATUS.TRUE,
+        status: NOTIFICATION_TYPE.SUCCESS,
         type: 'DestinationConfigured',
         reason: 'SomethingReason',
         message: 'Destination successfully transformed to otelcol configuration',

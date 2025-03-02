@@ -11,25 +11,8 @@ export enum HEALTH_STATUS {
   UNHEALTHY = 'unhealthy',
 }
 
-export enum CONDITION_STATUS {
-  FALSE = 'False',
-  TRUE = 'True',
-  UNKNOWN = 'Unknown',
-}
-
-// FetchedCondition is the condition as it comes from the API,
-// although we don't define API interfaces in this project, conditions in specific are not mapped on get-queries, so we need to define it here and provide a mapping function
-export interface FetchedCondition {
-  status: CONDITION_STATUS
-  type: string
-  reason?: string | null
-  message?: string | null
-  lastTransitionTime: string
-}
-
-// Condition is the condition after it has been mapped
 export interface Condition {
-  status: NOTIFICATION_TYPE
+  status: NOTIFICATION_TYPE | 'loading'
   type: string
   reason?: string | null
   message?: string | null
