@@ -12,7 +12,7 @@ export enum HEALTH_STATUS {
 }
 
 export interface Condition {
-  status: NOTIFICATION_TYPE | 'loading'
+  status: NOTIFICATION_TYPE | 'loading' | 'disabled'
   type: string
   reason?: string | null
   message?: string | null
