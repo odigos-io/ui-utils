@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.38](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.37...ui-utils-v0.0.38) (2025-03-03)
+
+
+### Features
+
+* add "disabled" to condition "status" field ([642d8ea](https://github.com/odigos-io/ui-utils/commit/642d8eacad092e76678c1f205613980f9135d054))
+* kill getHealthStatus ([342f98a](https://github.com/odigos-io/ui-utils/commit/342f98aae133a1ff19faf571c405e8570e7b29e8))
+
 ## [0.0.37](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.36...ui-utils-v0.0.37) (2025-03-02)
 
 
