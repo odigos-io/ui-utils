@@ -6,11 +6,6 @@ export enum NOTIFICATION_TYPE {
   DEFAULT = 'default',
 }
 
-export enum HEALTH_STATUS {
-  HEALTHY = 'healthy',
-  UNHEALTHY = 'unhealthy',
-}
-
 export interface Condition {
   status: NOTIFICATION_TYPE | 'loading' | 'disabled'
   type: string
