@@ -1,4 +1,4 @@
-import { K8S_RESOURCE_KIND, NOTIFICATION_TYPE, PROGRAMMING_LANGUAGES, type Source } from '../../@types'
+import { K8S_RESOURCE_KIND, NOTIFICATION_TYPE, OTHER_STATUS, PROGRAMMING_LANGUAGES, type Source } from '../../@types'
 
 export const MOCK_SOURCES: Source[] = [
   {
@@ -174,7 +174,7 @@ export const MOCK_SOURCES: Source[] = [
         lastTransitionTime: '2025-02-18T11:33:25Z',
       },
       {
-        status: 'loading',
+        status: OTHER_STATUS.LOADING,
         type: 'WorkloadRollout',
         reason: 'PreviousRolloutOngoing',
         message: 'waiting for workload rollout to finish before triggering a new one',
