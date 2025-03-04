@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.39](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.38...ui-utils-v0.0.39) (2025-03-04)
+
+
+### Features
+
+* add getDestinationIcon function ([ec5bcb5](https://github.com/odigos-io/ui-utils/commit/ec5bcb5246603312bced89ae630bd507eb8b2b04))
+* bump deps ([65cc7f7](https://github.com/odigos-io/ui-utils/commit/65cc7f7dc33d483f25706c3a68f3cc447f38e26c))
+
 ## [0.0.38](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.37...ui-utils-v0.0.38) (2025-03-03)
 
 
