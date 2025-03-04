@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.42](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.41...ui-utils-v0.0.42) (2025-03-04)
+
+
+### Features
+
+* add redis and kafka ([e4fc563](https://github.com/odigos-io/ui-utils/commit/e4fc563c1d65089e791a3ce2bd88e22b6587a13e))
+
 ## [0.0.41](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.40...ui-utils-v0.0.41) (2025-03-04)
 
 
