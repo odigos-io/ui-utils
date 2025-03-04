@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.43](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.42...ui-utils-v0.0.43) (2025-03-04)
+
+
+### Features
+
+* add funcs - getMetricForEntity, getContainersInstrumentedCount, getContainersIcons ([d79a070](https://github.com/odigos-io/ui-utils/commit/d79a070178626f3d085afb12c47d1a05286da021))
+
 ## [0.0.42](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.41...ui-utils-v0.0.42) (2025-03-04)
 
 
