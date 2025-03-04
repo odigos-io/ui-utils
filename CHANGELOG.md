@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.40](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.39...ui-utils-v0.0.40) (2025-03-04)
+
+
+### Features
+
+* add getBooleansConditions function ([4d2f39c](https://github.com/odigos-io/ui-utils/commit/4d2f39c8350b101b343aeb28ad1d6bbbb5c1ca77))
+
 ## [0.0.39](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.38...ui-utils-v0.0.39) (2025-03-04)
 
 
