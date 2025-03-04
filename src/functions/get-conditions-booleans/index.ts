@@ -6,10 +6,19 @@ export const getConditionsBooleans = (conditions: Condition[]) => {
   const hasDisableds = !!conditions?.find(({ status }) => status === 'disabled')
   const hasLoadings = !!conditions?.find(({ status }) => status === 'loading')
 
+  const priorotizedStatus = hasErrors
+    ? NOTIFICATION_TYPE.ERROR
+    : hasWarnings
+    ? NOTIFICATION_TYPE.WARNING
+    : hasDisableds
+    ? NOTIFICATION_TYPE.INFO
+    : undefined
+
   return {
     hasErrors,
     hasWarnings,
     hasDisableds,
     hasLoadings,
+    priorotizedStatus,
   }
 }
