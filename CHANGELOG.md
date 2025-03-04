@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.44](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.43...ui-utils-v0.0.44) (2025-03-04)
+
+
+### Features
+
+* add OTHER_STATUS enum ([aa5bcd5](https://github.com/odigos-io/ui-utils/commit/aa5bcd57323da541b56b9fbda42ff48630aeaa03))
+* add priorotizedStatus to getConditionsBooleans ([c026ade](https://github.com/odigos-io/ui-utils/commit/c026adee1f1fd24696d861f8632d7231224113b8))
+
 ## [0.0.43](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.42...ui-utils-v0.0.43) (2025-03-04)
 
 
