@@ -15,8 +15,16 @@ export enum PROGRAMMING_LANGUAGES {
   PYTHON = 'python',
   JAVA = 'java',
   DOTNET = 'dotnet',
+  CSHARP = 'csharp',
+  CPLUSPLUS = 'cplusplus',
+  PHP = 'php',
+  RUBY = 'ruby',
+  RUST = 'rust',
+  SWIFT = 'swift',
+  ELIXIR = 'elixir',
   MYSQL = 'mysql',
   NGINX = 'nginx',
+  POSTGRES = 'postgres',
 
   IGNORED = 'ignored',
   UNKNOWN = 'unknown', // language detection completed but could not find a supported language
