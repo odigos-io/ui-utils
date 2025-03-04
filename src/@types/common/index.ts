@@ -25,6 +25,8 @@ export enum PROGRAMMING_LANGUAGES {
   MYSQL = 'mysql',
   NGINX = 'nginx',
   POSTGRES = 'postgres',
+  REDIS = 'redis',
+  KAFKA = 'kafka',
 
   IGNORED = 'ignored',
   UNKNOWN = 'unknown', // language detection completed but could not find a supported language

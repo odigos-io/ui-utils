@@ -1,7 +1,8 @@
 import { PROGRAMMING_LANGUAGES } from '../../@types'
 
 export const getProgrammingLanguageIcon = (language: PROGRAMMING_LANGUAGES) => {
-  const BASE_URL = 'https://d1n7d4xz7fr8b4.cloudfront.net/'
+  // const BASE_URL = 'https://d1n7d4xz7fr8b4.cloudfront.net/'
+  const BASE_URL = 'https://odigos-sources.s3.us-east-1.amazonaws.com/'
 
   const LOGOS: Record<PROGRAMMING_LANGUAGES, string> = {
     [PROGRAMMING_LANGUAGES.JAVA]: `${BASE_URL}java.svg`,
@@ -19,6 +20,8 @@ export const getProgrammingLanguageIcon = (language: PROGRAMMING_LANGUAGES) => {
     [PROGRAMMING_LANGUAGES.MYSQL]: `${BASE_URL}mysql.svg`,
     [PROGRAMMING_LANGUAGES.NGINX]: `${BASE_URL}nginx.svg`,
     [PROGRAMMING_LANGUAGES.POSTGRES]: `${BASE_URL}postgres.svg`,
+    [PROGRAMMING_LANGUAGES.REDIS]: `${BASE_URL}redis.svg`,
+    [PROGRAMMING_LANGUAGES.KAFKA]: `${BASE_URL}kafka.svg`,
     [PROGRAMMING_LANGUAGES.IGNORED]: '', // TODO: good icon
     [PROGRAMMING_LANGUAGES.UNKNOWN]: '', // TODO: good icon
     [PROGRAMMING_LANGUAGES.PROCESSING]: '', // TODO: good icon
