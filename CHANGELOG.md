@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.41](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.40...ui-utils-v0.0.41) (2025-03-04)
+
+
+### Features
+
+* add programming languages ([7f712c0](https://github.com/odigos-io/ui-utils/commit/7f712c04521572728463c62f3f4725be151555e8))
+
 ## [0.0.40](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.39...ui-utils-v0.0.40) (2025-03-04)
 
 
