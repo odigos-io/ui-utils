@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.45](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.44...ui-utils-v0.0.45) (2025-03-09)
+
+
+### Features
+
+* add deepClone & getWorkloadId funcs ([806ddb0](https://github.com/odigos-io/ui-utils/commit/806ddb0fd176ae4cbb4b67afe37e5b803f7be7d0))
+
 ## [0.0.44](https://github.com/odigos-io/ui-utils/compare/ui-utils-v0.0.43...ui-utils-v0.0.44) (2025-03-04)
 
 
